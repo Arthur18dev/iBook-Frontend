@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+body {
+    font-family: "Arial";
+    background-color: #f4f4f4;
+    margin: 0% auto 0% auto;
+}
+div#interface {
+    position: absolute;
+}
+.header {
+    background-color: #1b004b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    width: auto;
+}
+nav#menu ul {
+    margin: auto;
+}
+.nav-bar {
+    display: flex;
+    background-color: #333;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav#menu li {
+    display: inline-block;
+    background-color: black;
+    -webkit-transition: background-color 1s;  
+    -o-transition: background-color 1s;  
+    transition: background-color 1s;
+    padding: 10px;
+    margin-left: 104px;
+}
+nav#menu li:hover {
+    background-color: #606060;
+}
+nav#menu a{
+    color: white;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: black;
+}
+.container {
+margin-inline-start: -30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.book li {
+    background-color: #dddddd;
+    margin-right: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+.book img {
+    float: left;
+    margin-right: 20px; 
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 5px 5px 10px;
+    cursor: pointer;
+} 
+.book img#livro-pequeno{
+    height: 298px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.book h2 {
+    color: #1b004b;
+    font-family: "Arial";
+    text-align: justify;
+}
+.book h4 {
+    color: black;
+    font-family: "Arial";
+    text-align: justify;
+}
+.book h5 {
+    font-family: "Arial";
+    color: black;
+    text-align: center;
+    margin: auto 170px auto auto;
+    font-size: 89%;
+}
+.book p {
+    color: black;
+    font-family: "Arial";
+    width: 50%;
+    text-align: justify;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+.book2 {
+border: 1px solid red;
+margin: 5px 10px 0px 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons {
+    clear: both; 
+    padding-top: 20px; 
+}
+.button {
+    background-color: #285afc;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+.button:hover {
+    background-color: black;
+    color: #285afc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    cursor: context-menu;
+}
+.header h1, .header p {
+    margin: 1%;
+    cursor: context-menu;
+}
+.valor {
+    font-family: "Arial";
+    border: 1px solid red;
+    margin: 1px 10px 0px 10px;
 }
