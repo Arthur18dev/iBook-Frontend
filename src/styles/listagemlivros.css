@@ -1,0 +1,89 @@
+
+.estrutura {
+
+}
+
+.container {
+
+}
+
+.container li{
+    list-style: none;
+    }
+    .book {
+
+    }
+
+    .book li {
+        background-color: #f5f5f5;
+        padding: 20px;
+        margin: 0px 700px 2% -30px;
+        border: 1px solid black;
+        border-radius: 17px;
+    }
+    .book img {
+        margin-right: 20px; 
+        max-width: 200px;
+        width: 100%;
+        box-shadow: 5px 5px 10px;
+        cursor: pointer;
+    } 
+    .book img#livro-pequeno{
+        height: 298px;
+    }
+    
+    .book h2 {
+        color: #008b8b;
+        font-family: "Arial";
+        text-align: justify;
+        margin: -283px 0px 21px 220px;
+    }
+    .book h4 {
+        color: black;
+        font-family: "Arial";
+        text-align: justify;
+        margin: 19px 0px 22px 220px;
+    }
+    .book h5 {
+        font-family: "Arial";
+        color: black;
+        text-align: center;
+        margin: auto 170px auto 223px;
+        font-size: 89%;
+    }
+    .book p {
+        color: black;
+        font-family: "Arial";
+        width: 50%;
+        text-align: justify;
+        background-color: white;
+        margin-left: 50%;
+        box-shadow: 1px 1px 16px 4px black;
+    }
+    .book2 {
+    margin: 5px 10px 0px 50%;
+    }
+    
+    .buttons {
+        padding-top: 20px; 
+    }
+    .button {
+        background-color: #1a237e;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        margin-right: 5px;
+        margin-left: 8px;
+    }
+    .button:hover {
+        background-color: black;
+        color: #285afc;
+    }
+    
+    
+    .valor {
+        font-family: "Arial";
+        margin: 1px 10px 0px 10px;
+        font-size: 29px;
+    }

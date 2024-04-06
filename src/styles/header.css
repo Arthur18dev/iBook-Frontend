@@ -1,0 +1,60 @@
+div#interface {
+background-color: #2ecc71;
+
+}
+
+.header {
+    background: linear-gradient(to right, #1a237e, #87ceeb);
+    color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.header img {
+    width: 150px;
+    cursor: context-menu;
+    margin: 10px 1300px -150px 10px;
+}
+.header h1{
+    margin: 10px 857px 13px 200px;
+    cursor: context-menu;
+    text-align: start;
+    -webkit-text-stroke: 2px black;
+    font-size: 100px;
+}
+.header p {
+    margin: 1% 10px 0px -790px;
+    cursor: context-menu;
+    text-align: center;
+    color: black;
+}
+
+.containerInput{
+margin: -30px 10px -3px 0px;
+    
+}
+.containerInput input {
+    color: black;
+    font-size: 18px;
+    outline: none;
+    margin: 3px;
+}
+.buttonSearch{
+font-size: 18px;
+background-color: #07a0c3;
+color: white;
+border: 1px solid #07a0c3;
+}
+
+.containerInput input::placeholder{
+    color: black;
+}
+@media (max-width: 620px){
+    div#interface{
+        font-size: 12px;
+    }
+    .containerInput input{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,39 @@
+nav#menu ul {
+    margin: auto;
+}
+.nav-bar {
+    background-color: ;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+nav#menu li {
+    display: inline-block;
+    transition: background-color 1s;
+    padding: 10px;
+    margin-left: 108px;
+    list-style: none;
+    cursor: pointer;
+}
+nav#menu li:hover {
+    background-color: #086788;
+}
+nav#menu a{
+    color:  #333333;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: black;
+}
+
+.categorias{
+    border: 1px solid red;
+    background-color: white;
+    text-transform: none;
+}
+
+.categorias li {
+    list-style: none;
+}
