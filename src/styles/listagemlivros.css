@@ -1,17 +1,15 @@
 
 .estrutura {
-
-}
-
-.container {
-
+list-style: none;
+display: flex;
+flex-wrap: wrap;
 }
 
 .container li{
     list-style: none;
     }
     .book {
-
+ 
     }
 
     .book li {
@@ -32,19 +30,19 @@
         height: 298px;
     }
     
-    .book h2 {
+    .book h3 {
         color: #008b8b;
         font-family: "Arial";
         text-align: justify;
         margin: -283px 0px 21px 220px;
     }
-    .book h4 {
+    .book h5 {
         color: black;
         font-family: "Arial";
         text-align: justify;
         margin: 19px 0px 22px 220px;
     }
-    .book h5 {
+    .book h4 {
         font-family: "Arial";
         color: black;
         text-align: center;

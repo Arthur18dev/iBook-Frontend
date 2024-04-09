@@ -4,6 +4,7 @@ import CardLivro from './CardLivro'
 
 
 function ListagemLivros() {
+
     const livros = [
         {
             imagem: 'https://m.media-amazon.com/images/I/51Iv9fXJbbL.jpg',
@@ -30,12 +31,12 @@ function ListagemLivros() {
             autor: 'Autor: Antoine de Saint-Exupéry',
             descricao: 'Edição em Português',
             frete: 'Frete grátis',
-            sinopse: `Um piloto cai com seu avião no deserto e ali encontra uma criança loura e frágil. Ela diz ter
+            sinopse: `Um piloto cai com seu avião no deserto e ali encontra uma criança loira e frágil. Ela diz ter
             vindo de um pequeno planeta distante. E ali, na convivência com o piloto perdido, os dois
             repensam os seus valores e encontram o sentido da vida. Com essa história mágica, sensível,
             comovente, às vezes triste, e só aparentemente infantil, o escritor francês Antoine de
             Saint-Exupéry criou há 70 anos um dos maiores clássicos da literatura universal. Não há
-            adulto que não se comova ao se lembrar de quando.`,
+            adulto que não se comova.`,
             totalPaginas: 240,
             idioma: 'Português',
             edicao: 'Editora Principis',
@@ -156,8 +157,8 @@ function ListagemLivros() {
         },
         {
             imagem: 'https://m.media-amazon.com/images/I/71S8O-3xLVL._AC_UF1000,1000_QL80_.jpg',
-            titulo: 'O Conde de Monte-Cristo',
-            autor: 'Autor: Alexandre Dumas',
+            titulo: 'Ataque dos Titãs Vol. 1',
+            autor: 'Autor: Hajime Isayama',
             descricao: 'Edição em Português',
             frete: 'Frete grátis',
             sinopse: `O Conde de Monte Cristo é um romance clássico escrito por Alexandre Dumas em 1844. A história
@@ -174,12 +175,13 @@ function ListagemLivros() {
         }
     ]
     return (<>
-        <div className="container">
+        <div className="container-fluid">
             <div className="book">
                 <ul className="estrutura">
                     {livros.map(item => {
                         return (
-                            <li>
+                            <div className="col-md-6 mb-4">
+                            <li className="col-md-12 mb-4">
                                 <CardLivro
                                     imagem={item.imagem}
                                     titulo={item.titulo}
@@ -194,6 +196,7 @@ function ListagemLivros() {
                                     preco={item.preco}
                                 />
                             </li>
+                            </div>
                         )
                     })}
 

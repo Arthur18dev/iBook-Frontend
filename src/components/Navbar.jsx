@@ -14,12 +14,6 @@ function Navbar() {
                     <li><Link to="/cadastre-se">Cadastre-se</Link></li>
                 </ul>
             </nav>
-            <div className='categorias'>
-            <h5>Categorias</h5>
-                <ul>
-            <li></li>
-            </ul>
-        </div>
         </div>
     </>)
 }

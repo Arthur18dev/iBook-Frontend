@@ -7,11 +7,11 @@ function CardLivro({ imagem, titulo, autor, descricao, frete, sinopse, totalPagi
 
     return (<>
         <img id="livro-pequeno" src={imagem} alt="Error" />
-        <h2>{titulo}</h2>
-        <h4>{autor}</h4>
-        <h4>{descricao}</h4>
-        <h4>{frete}</h4>
-        <h5>Sinopse</h5>
+        <h3>{titulo}</h3>
+        <h5>{autor}</h5>
+        <h5>{descricao}</h5>
+        <h5>{frete}</h5>
+        <h4>Sinopse</h4>
         <p>{sinopse}</p>
         <div className="book2">
             <span>Tamanho {totalPaginas} páginas</span>
