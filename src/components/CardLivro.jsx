@@ -1,5 +1,5 @@
 
-function CardLivro({ imagem, titulo, autor, descricao, frete, sinopse, totalPaginas, idioma, dataPublicacao, edicao, preco }) {
+function CardLivro({ imagem, titulo, autor, descricao, frete, quantidade, sinopse, totalPaginas, idioma, dataPublicacao, edicao, preco }) {
     const apiWhatsapp = (titulo) => {
         let url = 'https://wa.me/5548936183165?text=Ol%C3%A1+gostaria+de+comprar+esse+livro+'+ titulo
         window.open(url, 'blank')
@@ -13,6 +13,15 @@ function CardLivro({ imagem, titulo, autor, descricao, frete, sinopse, totalPagi
         <h5>{frete}</h5>
         <h4>Sinopse</h4>
         <p>{sinopse}</p>
+        <div className="dropdown">
+        <select class="btn btn-secondary  dropdown-toggle" aria-label="Default select example">
+  <option selected>Quantidade:</option>
+  <option value="2"></option>
+  <option value="3"></option>
+  <option value="4"></option>
+</select>
+</div>
+
         <div className="book2">
             <span>Tamanho {totalPaginas} páginas</span>
             <span>| Idioma {idioma} </span>

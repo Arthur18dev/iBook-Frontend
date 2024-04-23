@@ -6,7 +6,6 @@ import ListagemLivros from './components/ListagemLivros';
 import router from './routers/router';
 import { RouterProvider } from 'react-router-dom';
 
-
 function App() {
   return (
     <>

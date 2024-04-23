@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../components/Header';
 import ListagemLivros from '../components/ListagemLivros';
 import Navbar from '../components/Navbar';
+import Rodape from '../components/Rodape';
+import { Link } from 'react-router-dom';
 
 
 
@@ -12,16 +14,15 @@ function Home() {
     <div className='categorias'>
             <h5>Categorias</h5>
                 <ul>
-            <li>Fantasia</li>
-            <li>Terror</li>
-            <li>Auto ajuda</li>
-            <li>Mangás</li>
-            <li>Ficção cientifica</li>
-            <li>Mistério</li>
-            <li>Literatura</li>
-            <li>Romance</li>
-            <li>Infantil</li>
-            <li></li>
+            <li><Link to="/fantasia">Fantasia</Link></li>
+            <li><Link to="/terror">Terror</Link></li>
+            <li><Link to="/auto-ajuda">Auto ajuda</Link></li>
+            <li><Link to="/mangas">Mangás</Link></li>
+            <li><Link to="/ficcao-cientifica">Ficção cientifica</Link></li>
+            <li><Link to="/misterio">Mistério</Link></li>
+            <li><Link to="/literatura">Literatura</Link></li>
+            <li><Link to="/romance">Romance</Link></li>
+            <li><Link to="/infantil">Infantil</Link></li>
             </ul>
         </div>
     <div className='destaque'>
@@ -29,6 +30,7 @@ function Home() {
     </div>
     <div id='interface'>
     <ListagemLivros/>
+    <Rodape/>
     </div>
     </>
   );

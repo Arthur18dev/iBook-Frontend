@@ -3,13 +3,14 @@
 list-style: none;
 display: flex;
 flex-wrap: wrap;
+min-height: 650px;
 }
 
 .container li{
     list-style: none;
     }
     .book {
- 
+        margin-top: 10px;
     }
 
     .book li {
@@ -31,7 +32,7 @@ flex-wrap: wrap;
     }
     
     .book h3 {
-        color: #008b8b;
+        color:  #1a237e;
         font-family: "Arial";
         text-align: justify;
         margin: -283px 0px 21px 220px;
@@ -46,8 +47,8 @@ flex-wrap: wrap;
         font-family: "Arial";
         color: black;
         text-align: center;
-        margin: auto 170px auto 223px;
-        font-size: 89%;
+        margin: auto 170px 10px 223px;
+        font-size: 99%;
     }
     .book p {
         color: black;
@@ -56,7 +57,7 @@ flex-wrap: wrap;
         text-align: justify;
         background-color: white;
         margin-left: 50%;
-        box-shadow: 1px 1px 16px 4px black;
+        box-shadow: 1px 3px 11px 4px black;
     }
     .book2 {
     margin: 5px 10px 0px 50%;
@@ -76,7 +77,7 @@ flex-wrap: wrap;
     }
     .button:hover {
         background-color: black;
-        color: #285afc;
+        color: #2ecc71;
     }
     
     
@@ -84,4 +85,11 @@ flex-wrap: wrap;
         font-family: "Arial";
         margin: 1px 10px 0px 10px;
         font-size: 29px;
+    }
+    .dropdown {
+        font-family: "Arial";
+    }
+
+    .dropdown span {
+     background-color: #1a237e;
     }

@@ -1,0 +1,17 @@
+div.rodape {
+ height: 150px;
+ background-color: black;
+ position: relative;
+ top: -50px;
+}
+div.mainrodape {
+    height: 50px;
+    background-color: black;
+
+   }
+   
+
+.rodape h1 {
+    color: white;
+
+}

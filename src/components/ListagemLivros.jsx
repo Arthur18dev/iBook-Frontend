@@ -4,7 +4,7 @@ import CardLivro from './CardLivro'
 
 
 function ListagemLivros() {
-
+ 
     const livros = [
         {
             imagem: 'https://m.media-amazon.com/images/I/51Iv9fXJbbL.jpg',
@@ -19,11 +19,12 @@ function ListagemLivros() {
             indescritível, sendo objeto de um culto ancestral dedicado a trazer sua ressurreição, o que
             acarretaria na ruína da humanidade. Nesta obra, encontramos este clássico junto com mais
             sete contos renomados do autor na literatura do medo.`,
-            totalPaginas: 240,
+            totalPaginas: 36,
             idioma: 'Português',
             edicao: 'Editora Principis',
             dataPublicacao: '12 de Dezembro 2019',
-            preco: 'R$ 5,99'
+            preco: 'R$ 5,99',
+            quantidade: '1'
         },
         {
             imagem: 'https://m.media-amazon.com/images/I/51nNwwVSclL._AC_UF1000,1000_QL80_.jpg',
@@ -37,7 +38,7 @@ function ListagemLivros() {
             comovente, às vezes triste, e só aparentemente infantil, o escritor francês Antoine de
             Saint-Exupéry criou há 70 anos um dos maiores clássicos da literatura universal. Não há
             adulto que não se comova.`,
-            totalPaginas: 240,
+            totalPaginas: 96,
             idioma: 'Português',
             edicao: 'Editora Principis',
             dataPublicacao: '12 de Dezembro 2019',
@@ -161,12 +162,7 @@ function ListagemLivros() {
             autor: 'Autor: Hajime Isayama',
             descricao: 'Edição em Português',
             frete: 'Frete grátis',
-            sinopse: `O Conde de Monte Cristo é um romance clássico escrito por Alexandre Dumas em 1844. A história
-            gira em torno de Edmond Dantès, um jovem marinheiro que é traído por seus amigos e condenado
-            injustamente à prisão. Após anos de encarceramento, ele escapa da prisão e encontra um
-            tesouro escondido na ilha de Monte Cristo, que ele usa para se vingar de seus inimigos e
-            recuperar sua posição na sociedade. Um dos mais notáveis clássicos da literatura francesa
-            por mais de um século e meio, “O conde de Monte-Cristo” narra a história de Edmond Dantès.`,
+            sinopse: `Os poucos sobreviventes viram sua civilização reduzida a um território protegido por muralhas, que foram capazes de manter a ameaça afastada por mais de cem anos. Mas tanto tempo de tranquilidade está prestes a ruir, com o ataque de um titã mais alto e poderoso do que a enorme muralha!`,
             totalPaginas: 240,
             idioma: 'Português',
             edicao: 'Editora Principis',
@@ -176,6 +172,7 @@ function ListagemLivros() {
     ]
     return (<>
         <div className="container-fluid">
+ 
             <div className="book">
                 <ul className="estrutura">
                     {livros.map(item => {
@@ -194,6 +191,7 @@ function ListagemLivros() {
                                     edicao={item.edicao}
                                     dataPublicacao={item.dataPublicacao}
                                     preco={item.preco}
+                                    quantidade={item.quantidade}
                                 />
                             </li>
                             </div>

@@ -33,6 +33,33 @@ const router = createBrowserRouter([
         path: "/cadastre-se",
         element: <CadastreSe/>,
     },
+    {
+        path: "/fantasia"
+    },
+    {
+        path: "/terror",
+    },
+    {
+        path: "/auto-ajuda",
+    },
+    {
+        path: "/mangas",
+    },
+    {
+        path: "/ficcao-cientifica",
+    },
+    {
+        path: "/misterio",
+    },
+    {
+        path: "/literatura",
+    },
+    {
+        path: "/romance",
+    },
+    {
+        path: "/infantil",
+    },
 ])
 
 export default router;
