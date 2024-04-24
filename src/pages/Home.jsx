@@ -28,10 +28,8 @@ function Home() {
     <div className='destaque'>
     <h2>Destaque</h2>
     </div>
-    <div id='interface'>
     <ListagemLivros/>
     <Rodape/>
-    </div>
     </>
   );
 }

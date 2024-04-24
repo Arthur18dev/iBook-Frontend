@@ -1,3 +1,9 @@
+.container-fluid {
+    background-color: #2ecc71;
+    padding: 10px;
+}
+
+
 div.rodape {
  height: 150px;
  background-color: black;
