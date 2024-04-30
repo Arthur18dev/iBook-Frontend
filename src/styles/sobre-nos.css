@@ -1,8 +1,33 @@
-#sobre  {
+div#sobre  {
     text-align: justify;
     font-family: "Arial";
     background: linear-gradient(to right, #1a237e, #87ceeb);
     max-width: 100%;
-    height: 389px;
+    height:920px;
     color: white;
+}
+
+div#sobre p {
+    text-align: justify;
+    font-size: 16px;
+    width: 50%;
+    margin: 10px;
+    font-family: "Arial";
+    margin: 20px;
+}
+
+div#sobre li {
+    list-style: none;
+}
+
+div#sobre h1 {
+    text-align: justify;
+    font-family: "Arial";
+    margin: 10px;
+}
+
+div#sobre h3{
+    text-align: justify;
+    font-family: "Arial";
+    margin: 10px;
 }

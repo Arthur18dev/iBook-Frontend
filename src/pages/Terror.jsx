@@ -10,18 +10,24 @@ import '../styles/rodape.css'
 
 const terror = [
     {
-      imagem: 'https://m.media-amazon.com/images/I/51eJpUzz8RL.jpg',
-      titulo: 'Mitologia Nórdica',
-      autor: 'Neil Gaiman',
-      descricao: 'Edição em Português',
-      frete: 'Frete grátis',
-      sinopse: 'Fascinado por essa mitologia desde a infância, o autor compôs uma coletânea de quinze contos que começa com a narração da origem do mundo e mostra a relação conturbada entre deuses, gigantes e anões, indo até o Ragnarök, o assustador cenário do apocalipse que vai levar ao fim no mundo. Às vezes intensos e sombrios, outras vezes divertidos e heroicos, os contos retratam tempos longínquos em que os feitos dos deuses eram contados ao redor da fogueira em noites frias e estreladas.',
-      totalPaginas: 240,
-      idioma: 'Português',
-      edicao: 'Intrínseca',
-      dataPublicacao: '13 de Março de 2017',
-      preco: 'R$ 9,99'
-  },
+        imagem: 'https://m.media-amazon.com/images/I/51Iv9fXJbbL.jpg',
+        titulo: 'O Chamado de Cthulhu',
+        autor: 'Autor: H.P. Lovecraft',
+        descricao: 'Edição em Português',
+        frete: 'Frete grátis',
+        sinopse: `O Chamado de Cthulhu é uma narrativa do escritor norte-americano H.P. Lovecraft que
+        rapidamente se tornou um marco do gênero do horror. Foi redigido em 1926 e inicialmente
+        publicado na revista Weird Tales, dos Estados Unidos, em fevereiro de 1928. Cthulhu é uma
+        divindade que, nas primeiras páginas do conto, é retratada como uma figura de barro quase
+        indescritível, sendo objeto de um culto ancestral dedicado a trazer sua ressurreição, o que
+        acarretaria na ruína da humanidade. Nesta obra, encontramos este clássico junto com mais
+        sete contos renomados do autor na literatura do medo.`,
+        totalPaginas: 240,
+        idioma: 'Português',
+        edicao: 'Editora Principis',
+        dataPublicacao: '2 de fevereiro de 1928',
+        preco: 'R$ 5,99'
+    },
   {
       imagem: 'https://m.media-amazon.com/images/I/81Q+pJi4NjL._AC_UF1000,1000_QL80_.jpg',
       titulo: 'O Iluminado',
@@ -35,6 +41,19 @@ const terror = [
       dataPublicacao: '22 de Agosto de 2017',
       preco: 'R$ 9,99'
   },
+  {
+    imagem: 'https://m.media-amazon.com/images/I/91g9Dvtf+jL._SL1500_.jpg',
+    titulo: 'It: A coisa',
+    autor: 'Stephen King',
+    descricao: 'Edição em Português',
+    frete: 'Frete grátis',
+    sinopse: 'Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas estranhas. Um conta que viu um palhaço, outro que viu uma múmia. Finalmente, acabam descobrindo que estavam todos vendo a mesma coisa: um ser sobrenatural e maligno que pode assumir várias formas. ',
+    totalPaginas: 1104,
+    idioma: 'Português',
+    edicao: 'Suma',
+    dataPublicacao: '24 de Julho de 2014',
+    preco: 'R$ 14,99'
+  }
   // Add mais livros
   ]
 

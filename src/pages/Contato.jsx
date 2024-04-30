@@ -28,10 +28,14 @@ function Contato() {
         </div>
         <div className='contato'>
           <h1>Fale Conosco</h1>
-          <p>(98)9 35456578</p>
+          <p><strong>Telefone:</strong> (11) 97617-6877</p>
+          <p><strong>Telefone:</strong> (98) 93545-6578</p>
           <h3>Mande no Email</h3>
-          <p>arthurguicampos@gmail.com</p>
+          <p><strong>Email: </strong>arthurguicampos@gmail.com</p>
+          <p><strong>Email: </strong> gustavodias3011@gmail.com</p>
           <h3>Siga nossas redes sociais</h3>
+          <h2>Envie uma mensagem:</h2>
+                   
         </div>
         <Rodape/>
     </>

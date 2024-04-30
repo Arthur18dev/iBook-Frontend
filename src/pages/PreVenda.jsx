@@ -22,7 +22,7 @@ const prevenda = [
   },
   {
     imagem: 'https://m.media-amazon.com/images/I/91+1SUO3vUL._SL1500_.jpg',
-    titulo: 'A Guerra dos Tronos : As Crônicas de Gelo e Fogo',
+    titulo: 'A Guerra dos Tronos: As Crônicas de Gelo e Fogo',
     autor: 'George R. R. Martin',
     descricao: 'Edição em Português',
     frete: 'Frete grátis',
@@ -34,8 +34,7 @@ const prevenda = [
     preco: 'R$ 14,99'
   }
   // Adicione mais livros conforme necessário
-];
-
+]
 
 function PreVenda() {
   return ( <>

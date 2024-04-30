@@ -10,33 +10,21 @@ import '../styles/rodape.css'
 
 const mangas = [
     {
-      imagem: 'https://m.media-amazon.com/images/I/51eJpUzz8RL.jpg',
-      titulo: 'Mitologia Nórdica',
-      autor: 'Neil Gaiman',
-      descricao: 'Edição em Português',
-      frete: 'Frete grátis',
-      sinopse: 'Fascinado por essa mitologia desde a infância, o autor compôs uma coletânea de quinze contos que começa com a narração da origem do mundo e mostra a relação conturbada entre deuses, gigantes e anões, indo até o Ragnarök, o assustador cenário do apocalipse que vai levar ao fim no mundo. Às vezes intensos e sombrios, outras vezes divertidos e heroicos, os contos retratam tempos longínquos em que os feitos dos deuses eram contados ao redor da fogueira em noites frias e estreladas.',
-      totalPaginas: 240,
-      idioma: 'Português',
-      edicao: 'Intrínseca',
-      dataPublicacao: '13 de Março de 2017',
-      preco: 'R$ 9,99'
-  },
-  {
-      imagem: 'https://m.media-amazon.com/images/I/81Q+pJi4NjL._AC_UF1000,1000_QL80_.jpg',
-      titulo: 'O Iluminado',
-      autor: 'Stephen King',
-      descricao: 'Edição em Português',
-      frete: 'Frete grátis',
-      sinopse: '“O lugar perfeito para recomeçar”, é o que pensa Jack Torrance ao ser contratado como zelador para o inverno. Hora de deixar para trás o alcoolismo, os acessos de fúria, os repetidos fracassos. Isolado pela neve com a esposa e o filho, tudo o que Jack deseja é um pouco de paz para se dedicar à escrita. Mas, conforme o inverno se aprofunda, o local paradisíaco começa a parecer cada vez mais remoto... e mais sinistro. Forças malignas habitam o Overlook, e tentam se apoderar de Danny Torrance, um garotinho com grandes poderes sobrenaturais. Possuir o menino, no entanto, se mostra mais difícil do que esperado. Então os espíritos resolvem se aproveitar das fraquezas do pai... ',
-      totalPaginas: 520,
-      idioma: 'Português',
-      edicao: 'Suma',
-      dataPublicacao: '22 de Agosto de 2017',
-      preco: 'R$ 9,99'
-  },
+        imagem: 'https://m.media-amazon.com/images/I/71S8O-3xLVL._AC_UF1000,1000_QL80_.jpg',
+        titulo: 'Ataque dos Titãs Vol. 1',
+        autor: 'Autor: Hajime Isayama',
+        descricao: 'Edição em Português',
+        frete: 'Frete grátis',
+        sinopse: `Os poucos sobreviventes viram sua civilização reduzida a um território protegido por muralhas, que foram capazes de manter a ameaça afastada por mais de cem anos. Mas tanto tempo de tranquilidade está prestes a ruir, com o ataque de um titã mais alto e poderoso do que a enorme muralha!`,
+        totalPaginas: 200,
+        idioma: 'Português',
+        edicao: 'Editora Principis',
+        dataPublicacao: '9 de setembro de 2009',
+        preco: 'R$ 5,99'
+    },
   // Add mais livros
   ]
+
 
 function Mangas() {
   return ( <>

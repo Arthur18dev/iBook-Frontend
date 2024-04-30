@@ -4,20 +4,61 @@
 }
 
 
-div.rodape {
+.rodape {
  height: 150px;
  background-color: black;
  position: relative;
  top: -50px;
+text-align: center;
 }
-div.mainrodape {
-    height: 50px;
-    background-color: black;
 
-   }
+.rodape-content {
+    padding: 50px;
+}
+
+.mainrodape {
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    font-size: 14px;
+}
    
 
-.rodape h1 {
-    color: white;
-
+ div#rodape-links li{
+  display: inline-block;
+  list-style: none;
 }
+
+div#rodape-social{
+    padding: 10px;
+    margin: 0px 0px 0px 40px;
+}
+
+div#rodape-links a{
+    margin: 10px; 
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Arial";
+}
+
+div#rodape-social a{
+    margin: 10px; 
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    border-radius: 6px;
+    background-color: #2ecc71;
+    display: inline-flex;
+    padding: 5px;
+}
+
+div#rodape-social a:hover {
+    color: #333333;
+}
+
+div#rodape-links a:hover {
+    color: #333333;
+}
+
+
