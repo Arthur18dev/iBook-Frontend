@@ -1,17 +1,19 @@
 import '../styles/navbar.css';
 import { Link } from 'react-router-dom';
+import { CiShoppingBasket } from "react-icons/ci";
 
 function Navbar() {
     return (<>
         <div className="nav-bar">
             <nav id="menu">
                 <ul>
-                    <li><Link to="/">Início</Link></li>
-                    <li><Link to="/sobre-nos">Sobre nós</Link></li>
-                    <li><Link to="/contato">Contato</Link></li>
-                    <li><Link to="/lancamento">Lançamentos</Link></li>
-                    <li><Link to="/pre-venda">Pré-venda</Link></li>
-                    <li><Link to="/cadastre-se">Cadastre-se</Link></li>
+                    <li><a><Link to="/">Início</Link></a></li>
+                    <li><a><Link to="/sobre-nos">Sobre nós</Link></a></li>
+                    <li><a><Link to="/contato">Contato</Link></a></li>
+                    <li><a><Link to="/lancamento">Lançamentos</Link></a></li>
+                    <li><a><Link to="/pre-venda">Pré-venda</Link></a></li>
+                    <li><a><Link to="/cadastre-se">Cadastre-se</Link></a></li>
+                    <li><i><Link to=""></Link><CiShoppingBasket /></i></li>
                 </ul>
             </nav>
         </div>

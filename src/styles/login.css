@@ -9,7 +9,7 @@ a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #1a237e, #87ceeb);
-    padding: 259px;
+    padding: 173px;
     background-size: cover;
     background-position: center;
 }
@@ -17,6 +17,8 @@ a {
 
 .login {
     background-color: #2ecc71;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px black;
     width: 420px;
     font-family: "Arial";
     color: white;
@@ -59,6 +61,7 @@ a {
     top: 50%;
     transform: translateY(-50%);
     font-size: 19px;
+    cursor: pointer;
 }
 
 .login  .perguntas {

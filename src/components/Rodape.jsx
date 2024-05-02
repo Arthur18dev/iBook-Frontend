@@ -11,12 +11,16 @@ function Rodape() {
         <div className="rodape-content">
           <div id="rodape-links">
             <ul>
-          <li><a href="/">Início</a></li>
-            <li><a href="/sobre-nos">Sobre</a></li>
-            <li><a href="/contato">Contato</a></li>
+              <li><a href="/">Início</a></li>
+              <li><a href="/sobre-nos">Sobre</a></li>
+              <li><a href="/contato">Contato</a></li>
             </ul>
           </div>
-          
+
+          <div className='logo'>
+            <h1>iBook</h1>
+          </div>
+
           <div id="rodape-social">
             <a href="https://twitter.com"><FaXTwitter /></a>
             <a href="https://facebook.com"><FaFacebookF /></a>

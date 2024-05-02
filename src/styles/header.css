@@ -10,17 +10,17 @@
 .header img {
     width: 150px;
     cursor: context-menu;
-    margin: 10px 1300px -150px 10px;
+    margin: 13px 1300px -178px 14px;
 }
 .header h1{
-    margin: 10px 857px 13px 200px;
+    margin: 12px 926px 13px 200px;
     cursor: context-menu;
     text-align: start;
     -webkit-text-stroke: 3px black;
     font-size: 100px;
 }
 .header p {
-    margin: 1% 10px 0px -790px;
+    margin: -1% 10px 0px -790px;
     cursor: context-menu;
     text-align: center;
     color: white;

@@ -5,7 +5,7 @@
 
 
 .rodape {
- height: 150px;
+ height: 205px;
  background-color: black;
  position: relative;
  top: -50px;
@@ -61,4 +61,9 @@ div#rodape-links a:hover {
     color: #333333;
 }
 
+
+.logo {
+    font-size: 10px;
+    margin: 0px 0px 0px 40px;
+}
 
