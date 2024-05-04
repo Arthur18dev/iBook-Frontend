@@ -4,6 +4,7 @@ import ListagemLivros from '../components/ListagemLivros';
 import Navbar from '../components/Navbar';
 import Rodape from '../components/Rodape';
 import { Link } from 'react-router-dom';
+import '../styles/destaque.css';
 
 
 

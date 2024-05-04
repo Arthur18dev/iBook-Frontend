@@ -41,6 +41,7 @@ font-size: 18px;
 background-color: #2ecc71;
 color: white;
 border: 0px;
+cursor: pointer;
 }
 
 .containerInput input::placeholder{

@@ -16,7 +16,7 @@ function CadastreSe() {
       <div className='cadastro'>
         <div className='login'>
           <form action="">
-            <h1>Login</h1>
+            <h1>Recuperar</h1>
             <div className='input-box'>
               <input type='email' placeholder='Email' required/><i><MdEmail /></i>
             </div>
@@ -26,9 +26,8 @@ function CadastreSe() {
             </div>
             <div className="perguntas">
               <label><input type="checkbox"/>Marque</label>
-              <a><Link to="/esqueceu-a-senha">Esqueceu a senha?</Link></a>
             </div>
-            <button type='enviar' className='botao'>Login</button>
+            <button type='enviar' className='botao'>Enviar</button>
             <div className='registrar'>
               <p>Não tem conta ainda?<a><Link to="/registrar-se">Registrar</Link></a></p>
             </div>

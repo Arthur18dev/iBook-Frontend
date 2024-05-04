@@ -33,7 +33,6 @@ function Contato() {
       <h3>Mande no Email</h3>
       <p><strong>Email: </strong>arthurguicampos@gmail.com</p>
       <p><strong>Email: </strong> gustavodias3011@gmail.com</p>
-      <h3>Siga nossas redes sociais</h3>
       <h2>Envie uma mensagem:</h2>
 
     </div>

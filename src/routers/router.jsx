@@ -16,68 +16,78 @@ import Misterio from "../pages/Misterio";
 import Literatura from "../pages/Literatura";
 import Romance from "../pages/Romance";
 import Infantil from "../pages/Infantil";
+import Registrar from "../pages/Registrar";
+import EsqueceuSenha from "../pages/EsqueceuSenha";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home/>,
+        element: <Home />,
     },
     {
         path: "/sobre-nos",
-        element: <SobreNos/>,
+        element: <SobreNos />,
     },
     {
         path: "/contato",
-        element: <Contato/>,
+        element: <Contato />,
     },
     {
         path: "/lancamento",
-        element: <Lancamentos/>,
+        element: <Lancamentos />,
     },
     {
         path: "/pre-venda",
-        element: <PreVenda/>,
+        element: <PreVenda />,
     },
     {
         path: "/cadastre-se",
-        element: <CadastreSe/>,
+        element: <CadastreSe />,
     },
     {
         path: "/fantasia",
-        element: <Fantasia/>,
+        element: <Fantasia />,
     },
     {
         path: "/terror",
-        element: <Terror/>,
+        element: <Terror />,
     },
     {
         path: "/auto-ajuda",
-        element: <AutoAjuda/>,
+        element: <AutoAjuda />,
     },
     {
         path: "/mangas",
-        element: <Mangas/>,
+        element: <Mangas />,
     },
     {
         path: "/ficcao-cientifica",
-        element: <FiccaoCientifica/>,
+        element: <FiccaoCientifica />,
     },
     {
         path: "/misterio",
-        element: <Misterio/>,
+        element: <Misterio />,
     },
     {
         path: "/literatura",
-        element: <Literatura/>,
+        element: <Literatura />,
     },
     {
         path: "/romance",
-        element: <Romance/>,
+        element: <Romance />,
     },
     {
         path: "/infantil",
-        element: <Infantil/>,
+        element: <Infantil />,
     },
+    {
+        path: "/registrar-se",
+        element: <Registrar />,
+    },
+    {
+        path: "/esqueceu-a-senha",
+        element: <EsqueceuSenha />,
+    }
 ])
 
 export default router;

@@ -13,14 +13,6 @@ function CardLivro({ imagem, titulo, autor, descricao, frete, quantidade, sinops
         <h5>{frete}</h5>
         <h4>Sinopse</h4>
         <p>{sinopse}</p>
-        <div className="dropdown">
-        <select class="btn btn-secondary  dropdown-toggle" aria-label="Default select example">
-  <option selected>Quantidade:</option>
-  <option value="2"></option>
-  <option value="3"></option>
-  <option value="4"></option>
-</select>
-</div>
 
         <div className="book2">
             <span>Tamanho {totalPaginas} páginas</span>
