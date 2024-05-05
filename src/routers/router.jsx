@@ -19,6 +19,7 @@ import Infantil from "../pages/Infantil";
 import Registrar from "../pages/Registrar";
 import EsqueceuSenha from "../pages/EsqueceuSenha";
 
+
 const router = createBrowserRouter([
     {
         path: "/",
