@@ -1,7 +1,8 @@
+import formatCurrency from "../utils/formatCurrency"
 
 function CardLivro({ imagem, titulo, autor, descricao, frete, quantidade, sinopse, totalPaginas, idioma, dataPublicacao, edicao, preco }) {
     const apiWhatsapp = (titulo) => {
-        let url = 'https://wa.me/5548936183165?text=Ol%C3%A1+gostaria+de+comprar+esse+livro+'+ titulo
+        let url = 'https://wa.me/5598987022803?text=Ol%C3%A1+gostaria+de+comprar+esse+livro+'+ titulo
         window.open(url, 'blank')
     }
 
@@ -21,11 +22,11 @@ function CardLivro({ imagem, titulo, autor, descricao, frete, quantidade, sinops
             <span>| {dataPublicacao}</span>
         </div>
         <div className="valor">
-            <span>Preço: {preco}</span>
+            <span>Preço: {formatCurrency(preco, 'BRL')}</span>
         </div>
         <div className="buttons">
             <a><button onClick={() => apiWhatsapp(titulo)} className="button">Comprar</button></a>
-            <a><button className="button">Carrinho</button></a>
+            <a><button type="button" className="button">Carrinho</button></a>
         </div>
     </>)
 

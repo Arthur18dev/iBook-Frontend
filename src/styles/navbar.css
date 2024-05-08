@@ -28,10 +28,19 @@ nav#menu a:hover {
     color: #87ceeb;
 }
 
-nav#menu i{
-    display: inline-flex;
-    font-size: 20px;
-    
+nav#menu i button {
+margin-left: 70px;
+
+}
+
+nav#menu button {
+    border-radius: 5px;
+    border: none;
+    font-size: 23px;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    color: black;
 }
 
 nav#menu i:hover {

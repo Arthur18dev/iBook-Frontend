@@ -13,7 +13,7 @@ function Navbar() {
                     <li><a><Link to="/lancamento">Lançamentos</Link></a></li>
                     <li><a><Link to="/pre-venda">Pré-venda</Link></a></li>
                     <li><a><Link to="/cadastre-se">Cadastre-se</Link></a></li>
-                    <li><i><Link to=""></Link><CiShoppingBasket /></i></li>
+                    <i><Link to=""></Link><button><CiShoppingBasket /></button></i>
                 </ul>
             </nav>
         </div>

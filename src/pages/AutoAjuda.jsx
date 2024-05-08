@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import Rodape from '../components/Rodape';
 import CardLivro from '../components/CardLivro';
 import '../styles/rodape.css'
-
-
+import {useState, useEffect} from 'react'
+import livrosServices from "../services/livros"
 
 const autoajuda = [
     {
@@ -33,7 +33,15 @@ const autoajuda = [
 
 
 function AutoAjuda() {
-    return (<>
+    const [autoajuda, setLivros] = useState([]) 
+
+    useEffect((id)=>{
+        livrosServices.getLivrosCategoria(id).then(({data}) =>{
+            setLivros(data)
+        })
+    }, [])
+    
+    return(<>
         <Header />
         <Navbar />
         <div className='categorias'>

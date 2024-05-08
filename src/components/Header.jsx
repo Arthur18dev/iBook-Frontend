@@ -1,5 +1,5 @@
 import { useState } from 'react'; 
-import logo from "../assets/imagem/logoiBook.png";
+import logo from "../assets/imagem/Logotipo.png";
 import '../styles/header.css';
 
 function Header() {

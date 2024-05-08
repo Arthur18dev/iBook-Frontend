@@ -4,7 +4,6 @@ import { FaEyeSlash, FaEye } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
-
 function Registrar() {
   const [showPassword, setShowPassword] = useState(false);
   const [nome, setNome] = useState('');
@@ -51,7 +50,7 @@ function Registrar() {
             </div>
             <div className="perguntas">
               <label><input type="checkbox"/>Marque</label>
-              <a><Link to="/esqueceu">Esqueceu a senha?</Link></a>
+              <a><Link to="/esqueceu-a-senha">Esqueceu a senha?</Link></a>
             </div>
             <button type='enviar' className='botao'>Cadastrar</button>
           </form>
