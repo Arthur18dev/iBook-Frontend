@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaEyeSlash, FaEye } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import '../styles/login.css'
+
 
 function CadastreSe() {
   const [showPassword, setShowPassword] = useState(false);

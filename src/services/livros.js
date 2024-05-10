@@ -18,4 +18,4 @@ const livrosServices = {
 
 
 
-export default livrosServices
+export default livrosServices;

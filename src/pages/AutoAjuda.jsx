@@ -8,36 +8,15 @@ import '../styles/rodape.css'
 import {useState, useEffect} from 'react'
 import livrosServices from "../services/livros"
 
-const autoajuda = [
-    {
-        imagem: 'https://m.media-amazon.com/images/I/51Fe45NGwkL._SY466_.jpg',
-        titulo: 'A Arte da Guerra',
-        autor: 'Autor: Sun Tzu',
-        descricao: 'Edição em Português',
-        frete: 'Frete grátis',
-        sinopse: `"A Arte da Guerra", de Sun Tzu, é um tratado clássico sobre estratégia e tática militar
-            escrito há mais de dois milênios na China Antiga. Apesar disso, esse texto figura em
-            diversas listas de excelentes livros sobre negócios. Por quê? Simplesmente porque ele
-            instrui líderes empresariais, CEOs e empreendedores a adotarem uma abordagem estratégica.
-            Apesar do foco principal de “A Arte da Guerra” estar no confronto e na maneira de lidar com
-            oponentes, os ensinamentos do general chinês transcendem o campo de batalha e podem ser
-            empregados ao enfrentar rivais.`,
-        totalPaginas: 100,
-        idioma: 'Português',
-        edicao: 'Editora Principis',
-        dataPublicacao: '5 A.C',
-        preco: 'R$ 5,99'
-    }
-    // Add mais livros
-]
+
 
 
 function AutoAjuda() {
-    const [autoajuda, setLivros] = useState([]) 
+    const [autoajuda, setautoajuda] = useState([]) 
 
     useEffect((id)=>{
         livrosServices.getLivrosCategoria(id).then(({data}) =>{
-            setLivros(data)
+            setautoajuda(data)
         })
     }, [])
     

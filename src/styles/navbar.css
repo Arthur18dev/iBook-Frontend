@@ -54,6 +54,11 @@ nav#menu i:hover {
     cursor: context-menu;
 }
 
+.categorias h5 {
+    font-family: "Arial";
+    color: black;
+}
+
 .categorias li {
     list-style: none;
     display: inline-block;

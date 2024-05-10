@@ -4,15 +4,22 @@ import {useState, useEffect} from 'react'
 import livrosServices from "../services/livros"
 
 
-function ListagemLivros() {
+function ListagemLivros({categoriaId}) {
  
     const [livros, setLivros] = useState([]) 
 
     useEffect(()=>{
+        if(categoriaId == 0) {
         livrosServices.getAllLivros().then(({data}) =>{
             setLivros(data)
         })
-    }, [])
+    }
+    else {
+        livrosServices.getLivrosCategoria(categoriaId).then(({data}) =>{
+            setLivros(data)
+        })
+    }
+    }, [categoriaId])
     return (<>
         <div className="container-fluid">
             <div className="book">

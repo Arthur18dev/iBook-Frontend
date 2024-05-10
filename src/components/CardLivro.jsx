@@ -26,7 +26,7 @@ function CardLivro({ imagem, titulo, autor, descricao, frete, quantidade, sinops
         </div>
         <div className="buttons">
             <a><button onClick={() => apiWhatsapp(titulo)} className="button">Comprar</button></a>
-            <a><button type="button" className="button">Carrinho</button></a>
+            {/* <a><button type="button" className="button">Carrinho</button></a> */}
         </div>
     </>)
 

@@ -6,4 +6,4 @@ const formatCurrency = (value, currency) => {
 
 };
 
-export default formatCurrency
+export default formatCurrency;
