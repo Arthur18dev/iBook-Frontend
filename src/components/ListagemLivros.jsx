@@ -3,7 +3,6 @@ import CardLivro from './CardLivro'
 import {useState, useEffect} from 'react'
 import livrosServices from "../services/livros"
 
-
 function ListagemLivros({categoriaId}) {
  
     const [livros, setLivros] = useState([]) 

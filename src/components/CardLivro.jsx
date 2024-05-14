@@ -1,8 +1,11 @@
 import formatCurrency from "../utils/formatCurrency"
+import moment from 'moment';
+import 'moment/locale/pt-br';
 
 function CardLivro({ imagem, titulo, autor, descricao, frete, quantidade, sinopse, totalPaginas, idioma, dataPublicacao, edicao, preco }) {
+    moment.locale('pt-br');
     const apiWhatsapp = (titulo) => {
-        let url = 'https://wa.me/5598987022803?text=Ol%C3%A1+gostaria+de+comprar+esse+livro+'+ titulo
+        let url = 'https://wa.me/5598987022803?text=Ol%C3%A1+gostaria+de+comprar+esse+livro+' + titulo
         window.open(url, 'blank')
     }
 
@@ -17,9 +20,9 @@ function CardLivro({ imagem, titulo, autor, descricao, frete, quantidade, sinops
 
         <div className="book2">
             <span>Tamanho {totalPaginas} páginas</span>
-            <span>| Idioma {idioma} </span>
-            <span>|{edicao} </span>
-            <span>| {dataPublicacao}</span>
+            <span>| Idioma {idioma}</span>
+            <span>| {edicao}</span>
+            <span>| {moment(dataPublicacao).format('LL')}</span>
         </div>
         <div className="valor">
             <span>Preço: {formatCurrency(preco, 'BRL')}</span>

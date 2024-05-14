@@ -62,8 +62,6 @@ function CadastreSe() {
           </form>
         </div>
       </div>
-
-
     </>
   );
 }

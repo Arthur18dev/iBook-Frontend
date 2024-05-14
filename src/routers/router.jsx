@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         element: <PreVenda />,
     },
     {
-        path: "/cadastre-se",
+        path: "/login",
         element: <CadastreSe />,
     },
     {

@@ -5,27 +5,27 @@ import Rodape from '../components/Rodape';
 import { Link } from 'react-router-dom';
 import '../styles/sobre-nos.css'
 import '../styles/rodape.css'
-
+import '../styles/navbar.css'
 
 
 function SobreNos() {
   return (<>
     <Header />
     <Navbar />
-    <div className='categorias'>
+    {/* <div className='categorias'>
       <h5>Categorias</h5>
       <ul>
-        <li><Link to="/fantasia">Fantasia</Link></li>
-        <li><Link to="/terror">Terror</Link></li>
-        <li><Link to="/auto-ajuda">Auto ajuda</Link></li>
-        <li><Link to="/mangas">Mangás</Link></li>
-        <li><Link to="/ficcao-cientifica">Ficção cientifica</Link></li>
-        <li><Link to="/misterio">Mistério</Link></li>
-        <li><Link to="/literatura">Literatura</Link></li>
-        <li><Link to="/romance">Romance</Link></li>
-        <li><Link to="/infantil">Infantil</Link></li>
+        <li><a><Link to="/fantasia">Fantasia</Link></a></li>
+        <li><a><Link to="/terror">Terror</Link></a></li>
+        <li><a><Link to="/auto-ajuda">Auto ajuda</Link></a></li>
+        <li><a><Link to="/mangas">Mangás</Link></a></li>
+        <li><a><Link to="/ficcao-cientifica">Ficção cientifica</Link></a></li>
+        <li><a><Link to="/misterio">Mistério</Link></a></li>
+        <li><a><Link to="/literatura">Literatura</Link></a></li>
+        <li><a><Link to="/romance">Romance</Link></a></li>
+        <li><a><Link to="/infantil">Infantil</Link></a></li>
       </ul>
-    </div>
+    </div> */}
     <div id='sobre'>
       <h1>O que é o iBook?</h1>
       <p>Bem-vindo ao iBook, a sua nova plataforma de entrega de livros. Com o iBook,  conectar-se aos seus livros favoritos nunca foi tão fácil! Inspirados pela  conveniência e simplicidade dos serviços de entrega de alimentos, criamos uma maneira igualmente simples para você receber seus livros preferidos diretamente na porta de sua casa.</p>

@@ -1,6 +1,7 @@
 nav#menu ul {
     margin: auto;
 }
+
 .nav-bar {
     background-color: #2ecc71;
     list-style: none;
@@ -13,22 +14,28 @@ nav#menu li {
     display: inline-block;
     transition: background-color 1s;
     padding: 10px;
-    margin-left: 94px;
+    margin-left: 104px;
     list-style: none;
     cursor: pointer;
 }
+
 nav#menu li:hover {
     background-color: #333333;
 }
-nav#menu a{
-    color:  black;
+
+nav#menu a {
+    color: black;
     text-decoration: none;
+    margin: -0px;
 }
+
 nav#menu a:hover {
     color: #87ceeb;
 }
 
-nav#menu i button {
+
+
+/* nav#menu i button {
 margin-left: 70px;
 
 }
@@ -41,14 +48,14 @@ nav#menu button {
     cursor: pointer;
     position: relative;
     color: black;
-}
+} */
 
-nav#menu i:hover {
+/* nav#menu i:hover {
     color: #87ceeb;
-}
+} */
 
 
-.categorias{
+.categorias {
     background-color: #f5f5f5;
     text-transform: none;
     cursor: context-menu;
@@ -62,14 +69,13 @@ nav#menu i:hover {
 .categorias li {
     list-style: none;
     display: inline-block;
-    margin: 0px 80px 0px 5px;
+    margin: 0px 90px 0px 5px;
     font-family: "Arial";
 }
-.categorias a {
-text-decoration: none;
-color: black;
-}
 
-.categorias a:hover {
+.categorias li:hover {
     color: #2ecc71;
 }
+
+
+

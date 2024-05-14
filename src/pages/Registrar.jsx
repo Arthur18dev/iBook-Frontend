@@ -3,6 +3,7 @@ import "../styles/registrar.css";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import '../styles/navbar.css'
 
 function Registrar() {
   const [showPassword, setShowPassword] = useState(false);
@@ -26,9 +27,9 @@ function Registrar() {
           <form action="">
             <h1>Registrar</h1>
             <div className='input-box'>
-              <input 
-                type='text' 
-                placeholder='Nome' 
+              <input
+                type='text'
+                placeholder='Nome'
                 value={nome}
                 onChange={handleNomeChange}
                 required
@@ -36,12 +37,12 @@ function Registrar() {
               <i></i>
             </div>
             <div className='input-box'>
-              <input type='email' placeholder='Email' required/><i><MdEmail /></i>
+              <input type='email' placeholder='Email' required /><i><MdEmail /></i>
             </div>
             <div className='input-box'>
-              <input 
-                type={showPassword ? 'text' : 'password'} 
-                placeholder='Senha' 
+              <input
+                type={showPassword ? 'text' : 'password'}
+                placeholder='Senha'
                 required
               />
               <i onClick={togglePasswordVisibility}>
@@ -49,7 +50,7 @@ function Registrar() {
               </i>
             </div>
             <div className="perguntas">
-              <label><input type="checkbox"/>Marque</label>
+              <label><input type="checkbox" />Marque</label>
               <a><Link to="/esqueceu-a-senha">Esqueceu a senha?</Link></a>
             </div>
             <button type='enviar' className='botao'>Cadastrar</button>
