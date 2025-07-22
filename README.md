@@ -54,10 +54,18 @@ https://Arthur18dev.github.io/iBook-Frontend
 
 
 ## ⚠️ Atenção: Backend necessário
+
+Clone este repositório
+git clone https://github.com/Arthur18dev/iBook-back-end.git
+
 Para que todas as informações e funcionalidades apareçam corretamente no frontend, é necessário que o backend esteja rodando.
 
-Para iniciar o backend localmente, navegue até a pasta do backend e execute:
+📦 Como rodar em produção
+Se quiser rodar sem o nodemon (modo produção), use:
 
+node SRC/index.js
+
+Para iniciar o backend localmente, navegue até a pasta do backend e execute:
 npm start
 Isso vai iniciar o servidor backend, permitindo que o frontend se comunique com ele.
 
