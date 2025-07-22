@@ -4,19 +4,19 @@
 
 
 
-1. Deploy do iBook-Frontend com GitHub Pages
+Deploy do iBook-Frontend com GitHub Pages
 
 Instale o pacote:
 
 npm install gh-pages --save-dev
 
 
-2. No package.json, adicione:
+No package.json, adicione:
 
 "homepage": "https://SEU_USUARIO.github.io/iBook-Frontend",
 
 
-3. Adicione esses scripts:
+Adicione esses scripts:
 
 "scripts": {
   "predeploy": "npm run build",
@@ -34,6 +34,6 @@ Modifique a seção de scripts para incluir os comandos de deploy:
 }
 
 
-4. Faça o build e deploy:
+Faça o build e deploy:
 
 npm run deploy
