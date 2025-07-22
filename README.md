@@ -6,10 +6,10 @@
 O que eu fiz 
 
 🚀 Deploy do Frontend no GitHub Pages
-Para publicar este projeto React no GitHub Pages, siga os passos abaixo:
+Para publicar este projeto React no GitHub Pages, siga os passos abaixo:</br>
 
 🌐 Clonando o frontend
-Se quiser testar o sistema completo com interface gráfica, clone também o repositório do frontend:
+Se quiser testar o sistema completo com interface gráfica, clone também o repositório do frontend:</br>
 
 git clone https://github.com/Arthur18dev/iBook-Frontend.git
 Acesse o README do frontend para ver como rodar ou publicar a aplicação no GitHub Pages.
