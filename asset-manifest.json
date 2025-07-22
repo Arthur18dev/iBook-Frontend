@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/iBook-Frontend/static/css/main.03795377.css",
+    "main.js": "/iBook-Frontend/static/js/main.2eef7f56.js",
+    "static/media/Livro terror.jpg": "/iBook-Frontend/static/media/Livro terror.82875a6ef77aca48eac8.jpg",
+    "static/media/batmanLivro.jpg": "/iBook-Frontend/static/media/batmanLivro.623134ef816f6528c141.jpg",
+    "static/media/pequeno.jpg": "/iBook-Frontend/static/media/pequeno.1bc38b6837752ca103c0.jpg",
+    "index.html": "/iBook-Frontend/index.html",
+    "main.03795377.css.map": "/iBook-Frontend/static/css/main.03795377.css.map",
+    "main.2eef7f56.js.map": "/iBook-Frontend/static/js/main.2eef7f56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03795377.css",
+    "static/js/main.2eef7f56.js"
+  ]
+}
