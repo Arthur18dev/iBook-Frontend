@@ -3,32 +3,32 @@
 <img width="1896" height="919" alt="image" src="https://github.com/user-attachments/assets/6c632476-10af-4e26-8d5e-f6975fac56fb" />
 
 
-Como fiz
+## Como fiz
 
-🚀 Deploy do Frontend no GitHub Pages
+## 😁 Deploy do Frontend no GitHub Pages
 Para publicar este projeto React no GitHub Pages, siga os passos abaixo:
 
 
-🌐 Clonando o frontend
+## 🌐 Clonando o frontend
 Se quiser testar o sistema completo com interface gráfica, clone também o repositório do frontend:
 
 git clone https://github.com/Arthur18dev/iBook-Frontend.git
 [Clique aqui](https://arthur18dev.github.io/iBook-Frontend/) para ver a aplicação do GitHub Pages.
 
 
-1. 🏠 Adicione o campo homepage no arquivo package.json
+## 1. 🏠 Adicione o campo homepage no arquivo package.json
 No seu package.json, inclua a linha abaixo (substitua pelo seu usuário e repositório):
 
 "homepage": "https://Arthur18dev.github.io/iBook-Frontend",
 
 
-2. 📦 Instale a dependência gh-pages
+## 2. 📦 Instale a dependência gh-pages
 Execute no terminal:
 
 npm install gh-pages --save-dev
 
 
-3. 🛠️ Configure os scripts de deploy no package.json
+## 3. 🛠️ Configure os scripts de deploy no package.json
 Modifique a seção "scripts" para incluir os comandos abaixo:
 
 "scripts": {
@@ -41,19 +41,19 @@ Modifique a seção "scripts" para incluir os comandos abaixo:
 },
 
 
-4. 🚩 Faça o deploy
+## 4. 🚩 Faça o deploy
 Rode o comando:
 
 npm run deploy
 Este comando irá gerar a build otimizada do projeto e enviar para o branch gh-pages do repositório, ativando o GitHub Pages.
 
-5. 🌐 Acesse o site publicado
+## 5. 🌐 Acesse o site publicado
 Seu site estará disponível em:
 
 https://Arthur18dev.github.io/iBook-Frontend
 
 
-⚠️ Atenção: Backend necessário
+## ⚠️ Atenção: Backend necessário
 Para que todas as informações e funcionalidades apareçam corretamente no frontend, é necessário que o backend esteja rodando.
 
 Para iniciar o backend localmente, navegue até a pasta do backend e execute:
